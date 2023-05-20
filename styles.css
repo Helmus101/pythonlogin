@@ -66,6 +66,14 @@ body {
     border-radius: 6px;
     cursor: pointer;
 }
+
+.btn {
+  color:white;
+}
+
+.btn:hover{
+  color: black;
+}
 .form_container {
     position: fixed;
     max-width: 320px;
@@ -176,7 +184,7 @@ body {
     user-select: none;
     color: #0b0217;
   }
-  .form_container .button {
+  .form_container .btn {
     background: #7d2ae8;
     margin-top: 30px;
     width: 100%;
